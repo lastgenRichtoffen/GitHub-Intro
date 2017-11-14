@@ -24,17 +24,17 @@ public class main extends Application{
 		root.getChildren().add(cir);
 		
 		scene.setOnKeyPressed(event ->{
-			if(event.getCode()=KeyCode.D){
+			if(event.getCode()==KeyCode.D){
 			cir.setTranslateX(cir.getTranslateX()+5);
 			}
-			if(event.getCode()=KeyCode.A){
+			if(event.getCode()==KeyCode.A){
 				cir.setTranslateX(cir.getTranslateX()-5);
 			}						
-			if(event.getCode()=KeyCode.W){
-				cir.setTranslateY(cir.getTranslateX()-5);
+			if(event.getCode()==KeyCode.W){
+				cir.setTranslateY(cir.getTranslateY()-5);
 			}	
-			if(event.getCode()=KeyCode.S){
-				cir.setTranslateX(cir.getTranslateX()+5);
+			if(event.getCode()==KeyCode.S){
+				cir.setTranslateY(cir.getTranslateY()+5);
 			}	
 		});
 
